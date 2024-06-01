@@ -3,19 +3,19 @@ USE employees;
 INSERT INTO department
     (name)
 VALUES
-    ('Sales'),
+    ('Custodial'),
     ('Engineering'),
     ('Finance'),
-    ('Legal');
+    ('Hospitality');
 
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-    ('Accounting Manager',250000,1),
-    ('Janitor',75000,3),
-    ('Chef',95000,3),
+    ('Accounting Manager',250000,3),
+    ('Janitor',75000,1),
+    ('Chef',95000,4),
     ('Front End Developer',150000,2),
-    ('Accountant',200000,1),
+    ('Accountant',200000,3),
     ('Maskot',30000,4);
 
 
