@@ -138,7 +138,7 @@ function loadMainPrompts(){
     
     // View all employees
     function viewEmployees() {
-    db.findAllEmployees()
+    db.findEmployees()
       .then(([rows]) => {
         let employees = rows;
         console.log("\n");
@@ -230,7 +230,7 @@ function loadMainPrompts(){
     }
 
    function updateEmployeeRole(){
-    db.findAllEmployees()
+    db.findEmployees()
     .then(([rows]) => {
       let employees = rows;
       const employeeChoices = employees.map(({ id, first_name, last_name }) => ({
@@ -508,6 +508,6 @@ function loadMainPrompts(){
   }
 
   function quit(){
-    console.log("Bye!")
+    console.log("Bye!");
     process.exit();
   }
