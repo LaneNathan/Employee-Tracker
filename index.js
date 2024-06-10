@@ -275,7 +275,7 @@ function loadMainPrompts(){
    } 
 
    function updateEmployeeManager() {
-    db.findAllEmployees()
+    db.findEmployees()
       .then(([rows]) => {
         let employees = rows;
         const employeeChoices = employees.map(({ id, first_name, last_name }) => ({
