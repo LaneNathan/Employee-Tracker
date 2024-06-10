@@ -6,6 +6,8 @@ const { type } = require("os");
 
 init();
 
+require('events').EventEmitter.defaultMaxListeners = 20;
+
 function init(){
     const logoText = logo({name: "Employee Manager"}).render();
 
