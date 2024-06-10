@@ -165,7 +165,7 @@ function loadMainPrompts(){
                   choices: departmentChoices
                 }
               ])
-                .then(res => db.findAllEmployeesByDepartment(res.departmentId))
+                .then(res => db.findEmployeesByDepartment(res.departmentId))
                 .then(([rows]) => {
                   let employees = rows;
                   console.log("\n");
