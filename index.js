@@ -131,7 +131,7 @@ function loadMainPrompts(){
           case "REMOVE_ROLE":
             removeRole();
             break;
-          default:
+            case "QUIT":
             quit();
         }
       }
