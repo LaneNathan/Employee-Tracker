@@ -1,6 +1,6 @@
 # Employee-Tracker
 
-[Terminal Image](./assets/Screenshot%202024-06-12%20215047.png)
+![Terminal Image](./assets/Screenshot%202024-06-12%20215047.png)
 
 
 ## Description
@@ -30,4 +30,4 @@ This CLI employee tracker is designed to help companies create databases for cat
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Example Video
-![Example video](https://watch.screencastify.com/v/M3xuUqyv8hozCiNLzF9D)
+[Example video](https://watch.screencastify.com/v/M3xuUqyv8hozCiNLzF9D)
